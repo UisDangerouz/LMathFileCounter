@@ -1,0 +1,2 @@
+python LMathFileCounter.py
+pause
