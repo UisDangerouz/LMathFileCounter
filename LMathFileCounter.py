@@ -3,7 +3,7 @@ import glob, datetime
 pageIndexes = []
 
 def epochToDate(epoch):
-    return datetime.datetime.fromtimestamp(int(epoch))
+    return datetime.datetime.fromtimestamp(int(epoch)).strftime('%d-%m-%Y %H:%M:%S')
 
 print('Finding LMath Pages...')
 
